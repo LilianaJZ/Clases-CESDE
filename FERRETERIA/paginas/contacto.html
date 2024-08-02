@@ -34,5 +34,48 @@
         referrerpolicy="no-referrer-when-downgrade"
       ></iframe>
     </div>
+    <h2 align="center">Llena tus datos</h2>
+    <div align="center">
+      <form >
+          <label>Escribe tu Nombre:</label>
+          <input type="text" placeholder="En Mayúsculas"><br>
+          <label>Escribe tu Teléfono:</label>
+          <input type="number" maxlength="10" required><br>
+          <label>Escribe tu corrreo:</label> 
+          <input type="email" required><br>
+          <label>Ecribe tu contraseña: </label> 
+          <input type="password"> <br>
+          <label>Indica tu Edad:</label>
+          <input type="number" min="18" max="60" required><br>
+          <label>Selecciona tu fecha de Nacimiento:</label>
+          <input type="date" min="1980-01-01" max="2006-12-31"><br>
+          <label>Selecciona una foto</label> <br>
+          <input type="file" max="1024" accept=".jpg,.png,.jpeg,.gif"> <br>
+          <label>Slecciona tu sexo:</label>
+          <input type="radio" name="sexo" value="Hombre"> Hombre
+          <input type="radio" name="sexo" value="Mujer"> Mujer
+          <input type="radio" name="sexo" value="Otro"> Otro <br>
+          <label>Selecciona tu producto preferido:</label> <br>
+          <input type="checkbox" name="producto" value="alicate">Alicates
+          <input type="checkbox" name="producto" value="electrico">Electricos
+          <input type="checkbox" name="producto" value="grata">Gratas
+          <input type="checkbox" name="producto" value="martillo">Martillos <br>
+          <label>Escoje un destino:</label>
+            <select name="destino">
+              <option value="sanandres">San Andrés</option>
+              <option value="santamarta">Santa Marta</option>
+              <option value="amazonas">Amazonas</option>
+              <option value="guajira">La Guajira</option>
+            </select> <br>
+            <label>Sugerencias, Quejas y Reclamos</label> <br>
+            <textarea name="pqrs" placeholder="escribe tu experiencia"></textarea>
+          <br><br>
+          <button type="submit">Enviar Datos</button>
+          <button type="reset">Borrar Datos</button>
+      </form>
+    </div>
+    <br><br><br><br><br><br><br>
+
+
   </body>
 </html>
